@@ -84,4 +84,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(5000, "127.0.0.1", () => {
   console.log("server listening on");
+  console.log('server starting')
 });
